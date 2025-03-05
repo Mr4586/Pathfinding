@@ -3,9 +3,9 @@
 ### sommet de départ : (148, 37) &  sommet d'arrivée : (23, 215)
 #### Breadth-First-Search vs Greedy (Glouton)
 #### BFS
-![](resultat_bfs.png)
+![](images/resultat_bfs.png)
 #### Glouton
-![](resultat_glouton.png)
+![](images/resultat_glouton.png)
 ##### Analyse :
 Il est indéniable que l'***algorithme glouton*** est avantagieux dans la vitesse d'exécution, soit **85** millièmes de secondes contrairement à ***BFS*** , **120** millièmes de secondes.  
 De plus, l'*algorithme glouton* explore le moins de sommets possible comparé à *BFS*, plus de **75 fois moins** .
@@ -16,11 +16,11 @@ Toutefois, l'*algorithme BFS* est avantagieux au regard de la longueur du chemin
 ### sommet de départ : (35, 207) &  sommet d'arrivée : (80, 80)
 #### Dijkstra vs A star vs Greedy
 #### Dijkstra
-![](resultat_2_dijkstra.png)
+![](images/resultat_2_dijkstra.png)
 #### A star
-![](resultat_2_a_star.png)
+![](images/resultat_2_a_star.png)
 #### Glouton
-![](resultat_2_glouton.png)
+![](images/resultat_2_glouton.png)
 
 ##### Analyse :
 Nonobstant l'égalité de la longueur du chemin, l'*algorithme A star* reste meilleur que *Dijkstra* en temps d'exécution, au moins **deux fois plus** rapide. Mais aussi, le nombre des sommets visités **4 fois moins** important comparé à l'*algotithme Dikjstra*. 
@@ -32,10 +32,10 @@ Des observations similaires, à proportion près, peuvent être faites pour les 
 ### sommet de départ : (460, 414) &  sommet d'arrivée : (352, 106)
 
 #### Dijkstra
-![](resultat_3_dijkstra.png)
+![](images/resultat_3_dijkstra.png)
 
 #### A star
-![](resultat_3_a_star.png)
+![](images/resultat_3_a_star.png)
 
 #### Glouton
-![](resultat_3_glouton.png)
+![](images/resultat_3_glouton.png)
