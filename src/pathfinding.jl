@@ -57,7 +57,10 @@ function cout(liste_couleurs::Tuple{Char, Char, Char, Char}, couleur::Char)
     # Couleur d'eau
     elseif(couleur == liste_couleurs[3])
         return 8
+    else 
+        return 50
     end
+
 end
 
 # Fonctions de Conversion
