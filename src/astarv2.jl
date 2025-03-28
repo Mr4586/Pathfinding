@@ -107,7 +107,7 @@ function a_star_v2(nom_fichier::String, depart::Tuple{Int64, Int64}, arrive::Tup
     return
 end
 
-function execution_a_star_V2(nom_fichier::String, depart::Tuple{Int64, Int64}, arrive::Tuple{Int64, Int64}, ω::Float64)
+function execution_a_star_v2(nom_fichier::String, depart::Tuple{Int64, Int64}, arrive::Tuple{Int64, Int64}, ω::Float64)
     # Affichage du résultat
     println("********************* RESULTAT A STAR  WEIGHTED V2 ***********************")
     println("Point de départ : $depart")
